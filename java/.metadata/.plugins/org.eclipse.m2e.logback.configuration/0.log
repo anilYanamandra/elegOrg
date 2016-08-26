@@ -1,0 +1,15 @@
+2016-08-26 23:01:51,163 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus:8081/nexus/content/groups/build.snapshots/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2016-08-26 23:02:33,331 [Worker-20] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus:8081/nexus/content/groups/build.snapshots/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2016-08-26 23:03:16,172 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\AK\git\elegOrg\java\elegorg.java\pom.xml
+2016-08-26 23:03:18,367 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: anil:elegorg.java:0.0.1-SNAPSHOT @ C:\AK\git\elegOrg\java\elegorg.java\pom.xml.
+2016-08-26 23:03:20,299 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /elegorg.java/src/main/java
+2016-08-26 23:03:20,299 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /elegorg.java/src/main/resources
+2016-08-26 23:03:20,300 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /elegorg.java/src/test/java
+2016-08-26 23:03:23,785 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2016-08-26 23:03:26,064 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 23:03:26,073 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-26 23:03:26,077 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 23:03:26,079 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\AK\git\elegOrg\java\elegorg.java\src\test\resources
+2016-08-26 23:03:39,307 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-26 23:03:44,367 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\AK\git\elegOrg\java\elegorg.java
+2016-08-26 23:03:44,368 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
