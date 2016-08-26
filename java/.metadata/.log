@@ -307,3 +307,9 @@ Caused by: java.net.UnknownHostException: nexus
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 23:03:26.078
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 23:07:51.327
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-26 23:07:51.334
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
