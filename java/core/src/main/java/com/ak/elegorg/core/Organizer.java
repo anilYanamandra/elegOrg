@@ -59,8 +59,8 @@ public class Organizer {
 		   	    	System.out.println("-----------------------------------------------------------------------------------------");
 	   	    		System.out.println("File Name :"+ fileEntry.getName());
 	   	    		System.out.println("File System Date :"+ new java.util.Date(fileEntry.lastModified()).toLocaleString());
-	   	    		//for(String name : type.getMetadataTags()) { 		
-	   	    		for(String name : metadataNames) {
+	   	    		for(String name : type.getMetadataTags()) { 		
+	   	    		//for(String name : metadataNames) {
 						System.out.println(name + ": " + metadata2.get(name));
 			   	    	}
 
