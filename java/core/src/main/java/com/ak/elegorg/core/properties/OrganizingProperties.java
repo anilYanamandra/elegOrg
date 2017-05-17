@@ -13,8 +13,8 @@ public class OrganizingProperties {
 	String[] selectedExtensions;
 	String imageFolderName = "images";
 	String videoFolderName = "videos";
-	String imageFileFolderFormat = "{DESTINATION_BASE}/images/{CAMERA_MODEL}/{CREATION_DATE}/";
-	String videoFileFolderFormat = "{DESTINATION_BASE}/videos/{CREATION_DATE}/";
+	String imageFileFolderFormat = "{DESTINATION_BASE}/{CREATION_DATE}/images/{CAMERA_MODEL}/";
+	String videoFileFolderFormat = "{DESTINATION_BASE}/{CREATION_DATE}/videos/";
 	
 
 	

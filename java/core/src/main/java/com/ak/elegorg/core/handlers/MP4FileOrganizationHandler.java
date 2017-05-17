@@ -41,7 +41,7 @@ public class MP4FileOrganizationHandler implements BaseOrganizationHandler {
 			String xmlDate = metadata.get("meta:creation-date");
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
 			Date date = sdf.parse(xmlDate);
-			SimpleDateFormat newFormat = new SimpleDateFormat("dd-MMM-YYYY");
+			SimpleDateFormat newFormat = new SimpleDateFormat("yyyy/MM-MMM/dd");
 			
 			System.out.println("Direct Printing Date : " + newFormat.format(date));
 			UriTemplate template = new UriTemplate(p.getVideoFileFolderFormat());

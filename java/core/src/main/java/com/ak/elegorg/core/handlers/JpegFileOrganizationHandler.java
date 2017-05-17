@@ -52,7 +52,7 @@ public class JpegFileOrganizationHandler implements BaseOrganizationHandler {
 			System.out.println("End Time: " + d2.toString());
 			SimpleDateFormat existingFormat = new SimpleDateFormat(
 					"yyyy:MM:dd HH:mm:ss");
-			SimpleDateFormat newFormat = new SimpleDateFormat("dd-MMM-YYYY");
+			SimpleDateFormat newFormat = new SimpleDateFormat("yyyy/MM-MMM/dd");
 			String pathDatePart = null;
 			try {
 				pathDatePart = newFormat.format(existingFormat.parse(dtStr));
